@@ -1,0 +1,29 @@
+<resources>
+    //page one
+    <string name="app_name">Assigment 3</string>
+    <string name="texthint1">Enter Name</string>
+    <string name="texthint2">Enter Email</string>
+    <string name="radButton1">Student</string>
+    <string name="radButton2">Employee</string>
+    <string name="radButton3">Other</string>
+    <string name="nextButton1">Next</string>
+    //page 2
+
+
+    //page 3
+    <string name="educationText">N/A</string>
+    <string name="maritalText">N/A</string>
+    <string name="livingText">N/A</string>
+    <string name="incomeText">N/A</string>
+    //page 4
+    <string name="cancelButton">Cancel</string>
+    <string name="submitButton">Submit</string>
+    <string name="textEducation">What is the highest degree or level of education you have completed?</string>
+    <string name="radButton4">Below High School</string>
+    <string name="radButton5">High School</string>
+    <string name="radButton6">Bachelors Degree</string>
+    <string name="radButton7">Masters Degree</string>
+    <string name="radButton8">Ph.D or higher</string>
+    <string name="radButton9">Trade School</string>
+    <string name="radButton10">Prefer not to say</string>
+</resources>
