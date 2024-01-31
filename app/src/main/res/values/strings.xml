@@ -26,4 +26,27 @@
     <string name="radButton8">Ph.D or higher</string>
     <string name="radButton9">Trade School</string>
     <string name="radButton10">Prefer not to say</string>
+    //page 5
+    <string name="textMarital">What is your marital status?</string>
+    <string name="radButton11">Not Married</string>
+    <string name="radButton12">Married</string>
+    <string name="radButton13">Prefer not to say</string>
+    //page 6
+    <string name="textLiving">Which of the following describes your living status?</string>
+    <string name="radButton14">Homeowner</string>
+    <string name="radButton15">Renter</string>
+    <string name="radButton16">Lessee</string>
+    <string name="radButton17">Other</string>
+    <string name="radButton18">Prefer Not to say</string>
+    //page 7
+    <string name="textIncome">$50K to &lt;$100K</string>
+    //Final Page
+    <string name="nameFinal">N/A</string>
+    <string name="emailFinal">N/A</string>
+    <string name="roleFinal">N/A</string>
+    <string name="incomeFinal">N/A</string>
+    <string name="educationFinal">N/A</string>
+    <string name="maritalFinal">N/A</string>
+    <string name="livingFinal">N/A</string>
+
 </resources>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -12,25 +11,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Assigment3"
         tools:targetApi="31">
+
+        <activity
+            android:name=".FinalPage"
+            android:exported="false" />
+        <activity
+            android:name=".HouseholdIncome"
+            android:exported="false" />
+        <activity
+            android:name=".LivingStatus"
+            android:exported="false" />
+        <activity
+            android:name=".MaritalStatus"
+            android:exported="false" />
         <activity
             android:name=".EducationLevel"
             android:exported="false" />
         <activity
             android:name=".DemographicInfo"
             android:exported="false" />
-
         <activity
             android:name=".IdentificationInfo"
             android:exported="false" />
+
+        <!-- Welcome activity as launcher -->
         <activity
             android:name=".Welcome"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

@@ -80,7 +80,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewP3" />
 
     <TextView
-        android:id="@+id/maritalText"
+        android:id="@+id/emailFinal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -90,7 +90,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
-        android:id="@+id/livingText"
+        android:id="@+id/roleFinal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -100,7 +100,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:id="@+id/incomeText"
+        android:id="@+id/incomeFinal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

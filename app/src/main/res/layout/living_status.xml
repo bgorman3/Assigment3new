@@ -4,17 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EducationLevel">
-
-    <Button
-        android:id="@+id/cancelButton1"
-        android:layout_width="155dp"
-        android:layout_height="47dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/cancelButton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+    tools:context=".LivingStatus">
 
     <Button
         android:id="@+id/submitButton3"
@@ -29,28 +19,39 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
+        android:id="@+id/textView5"
+        android:layout_width="323dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textLiving"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview1" />
+
+    <TextView
         android:id="@+id/textview1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Select Education Level"
+        android:text="Select Living Status"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="322dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/textEducation"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textview1" />
+    <Button
+        android:id="@+id/cancelButton3"
+        android:layout_width="155dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/cancelButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <RadioGroup
-        android:id="@+id/radioGroup2"
+        android:id="@+id/radioGroup4"
         android:layout_width="252dp"
         android:layout_height="352dp"
         android:layout_marginTop="24dp"
@@ -59,45 +60,32 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5">
 
         <RadioButton
-            android:id="@+id/radButton4"
+            android:id="@+id/radButton14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/radButton4" />
+            android:text="@string/radButton14" />
 
         <RadioButton
-            android:id="@+id/radButton5"
+            android:id="@+id/radButton15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/radButton5" />
+            android:text="@string/radButton15" />
 
         <RadioButton
-            android:id="@+id/radButton6"
+            android:id="@+id/radButton16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/radButton6" />
-
+            android:text="@string/radButton16" />
         <RadioButton
-            android:id="@+id/radButton7"
+            android:id="@+id/radButton17"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/radButton7" />
-
+            android:text="@string/radButton17" />
         <RadioButton
-            android:id="@+id/radButton8"
+            android:id="@+id/radButton18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/radButton8" />
+            android:text="@string/radButton18" />
 
-        <RadioButton
-            android:id="@+id/radButton9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/radButton9" />
-
-        <RadioButton
-            android:id="@+id/radButton10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/radButton10" />
     </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>

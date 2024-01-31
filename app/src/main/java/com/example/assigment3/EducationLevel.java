@@ -16,7 +16,7 @@ public class EducationLevel extends AppCompatActivity {
         setContentView(R.layout.educationlevel);
 
         final RadioGroup radioGroup = findViewById(R.id.radioGroup2);
-        Button submitButton = findViewById(R.id.submitButton1);
+        Button submitButton = findViewById(R.id.submitButton3);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,9 +24,17 @@ public class EducationLevel extends AppCompatActivity {
                 RadioButton radioButton = findViewById(selectedId);
                 if (radioButton != null) {
                     String selectedEducationLevel = radioButton.getText().toString();
-                    Intent intent = new Intent();
-                    intent.putExtra("EDUCATION_LEVEL", selectedEducationLevel);
-                    setResult(RESULT_OK, intent);
+
+                    // Pass the education level back to DemographicInfo
+                    Intent demographicIntent = new Intent();
+                    demographicIntent.putExtra("EDUCATION_LEVEL", selectedEducationLevel);
+                    setResult(RESULT_OK, demographicIntent);
+
+                    // Pass the education level to FinalPage
+                    Intent finalPageIntent = new Intent();
+                    finalPageIntent.putExtra("EDUCATION_LEVEL", selectedEducationLevel);
+                    setResult(RESULT_OK, finalPageIntent);
+
                     finish();
                 }
             }
